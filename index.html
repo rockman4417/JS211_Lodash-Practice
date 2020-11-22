@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>LODASH PRACTICE</h1>
+
+    <div><button  id="display-array-button" onclick="displayArray(this.id, arrayOfStates)">Display Array</button></div>
+    <div><button id="is-array-button" onclick="display(this.id, _.isArray(arrayOfStates))">_.isArray</button></div>
+    <div><button  id="chunk-button" onclick="display(this.id, _.chunk(arrayOfStates))">_.chunk</button></div>
+    <div><button  id="take-button" onclick="display(this.id, _.take(arrayOfStates))">_.take</button></div>
+    <div><button id="invert-div" onclick="display(this.id, _.invert(object))">_.invert</button></div>
+    <div><button  id="shuffle-button" onclick="display(this.id, _.shuffle(arrayOfStates))">_.shuffle</button></div>
+    <div><button id="reverse-button" onclick="display(this.id, _.reverse(arrayOfStates))">_.reverse</button></div>
+    <div><button id="without-div" onclick="display(this.id, _.without(arrayOfStates))">_.without</button></div>   
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/lodash@4.17.20/lodash.min.js"></script>
+
+
+    <script src="main.js"></script>
+    
+</body>
+</html>
